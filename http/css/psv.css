@@ -1,0 +1,242 @@
+
+/* =-=-=-=-=-=-=-=-= Video =-=-=-=-=-=-=-= */
+
+#ps-video img {
+    width: 100%;
+    position:absolute;
+    left:0;
+    top:47px;
+    margin:0;
+}
+
+#ps-video {
+    background:url('/img/jumbo/vid/video.jpg') no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.ps-video-txt {
+    font-size:22px !important;
+    color: white;
+    line-height: 0.99em;
+    z-index: 15 !important; /* has to be under menu z-index: 20 */
+    position:absolute !important;
+    top:47px;
+    padding-top:7%;
+    /*margin-right: 25px;*/
+    text-align:right;
+    font-family: 'Arial', sans-serif;
+    letter-spacing:0.07em;
+    text-transform: uppercase;
+    background-position: center 21%;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-= Persuading Area =-=-=-=-=-=-=-=-=-= */
+
+.ps-perks-it{
+    background:#fff;
+    font-size:16px;
+}
+
+.ps-perks-it i {
+    color:#0074D9;
+}
+.ps-perks-it h3{
+    letter-spacing:0.05em;
+    color:#c23d3d;
+}
+
+.ps-perks-java{
+    font-size:16px;
+}
+
+.ps-perks-java i {
+    color:orange;
+}
+
+.ps-perks-java h3{
+    color:#0074D9;
+    letter-spacing:0.05em;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-= Heading Area =-=-=-=-=-=-=-=-=-= */
+
+.ps-intro{
+    background:#fff;
+    font-size:16px;
+}
+
+.ps-intro h1, .ps-intro h2, .ps-intro h3 {
+    font-family: Helvetica, Verdana, Arial sans-serif;
+    font-weight: 100;
+    font-size:25px;
+    text-align: center;
+    letter-spacing:0.05em;
+    color:#0074D9;
+}
+
+.ps-intro-block img{
+    opacity: 0.8;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.ps-intro-block ul {
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    font-size: 1.6em;
+    color: dodgerblue;
+}
+.ps-intro-block li {
+    display: inline;
+}
+.ps-intro-block{
+    height: 100%;
+    border: solid 1px lightblue;
+    border-radius: 45px 45px 45px 0;
+    padding: 25px;
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+}
+
+.ps-intro-block span {
+    font-family: Helvetica, Verdana, Arial sans-serif;
+    color: dodgerblue;
+    font-weight: 200;
+    font-size:20px;
+}
+
+.ps-intro-block:hover img{
+    opacity: 0.9;
+    -webkit-transition-duration: 600ms;
+    -o-transition-duration: 600ms;
+    transition-duration: 600ms;
+}
+
+.ps-intro-block:hover{
+    box-shadow:0 0 20px lightblue;
+}
+
+.ps-header-area{
+    font-family: Helvetica, Verdana, Arial sans-serif;
+    font-weight: 200;
+    color: #0074D9;
+    text-align:center;
+    text-transform: uppercase;
+    padding:25px 0 25px 0;
+    margin:0;
+}
+
+.ps-header-area span {
+    font-family: Helvetica, Verdana, Arial sans-serif;
+    font-weight: 200;
+    font-size:32px;
+}
+
+.under-line {
+    width: 80px;
+    height: 2px;
+    background-color: orange;
+    margin: 25px;
+}
+
+.right-line {
+    border-right: solid 2px #555;
+    padding: 0 20px 15px 20px;
+}
+
+.under-line {
+    margin-left: calc(50% - 40px);
+}
+
+.psv-footer{padding-left:35px}
+
+/* =-=-=-=-=-=-=-=-=-=-= Public Post Area =-=-=-=-=-=-=-=-=-= */
+
+.psv-header{
+    text-align:center;
+}
+.psv-header img{
+    width:100%;
+}
+
+.psv-page-header h1 {
+    font-family: Helvetica, Verdana, Arial sans-serif;
+    color: #0074D9;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.psv-page-description{
+    transition: 1s;
+    padding-top:25px;
+    border:solid 1px lightblue;
+    border-radius: 25px 25px 25px 0;
+    box-shadow: 0 0 25px lightblue;
+}
+.psv-page-description:hover{
+    border:solid 1px #ddd;
+    box-shadow: 0 0 25px #99ffdd;
+}
+
+.psv-path{padding:3px}
+.psv-path a{color:#555;padding:3px 7px;margin:2px;display: inline-block;}
+.psv-path a:hover{color:black;text-decoration:none;transform: scale(1.03)}
+.psv-path a:visited{text-decoration:none}
+
+.ps-foot-pane{
+    background:#f5f5f5;
+    font-family: 'PSCode', sans-serif;
+    height: 100px;
+    text-align:center;
+    color:silver;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px white;
+    padding:25px 0 25px 0;
+    margin:0;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-= Text Area =-=-=-=-=-=-=-=-=-= */
+
+.psv-txt h3, .psv-txt h4 { color: #0074D9; }
+
+.psv-txt{ padding:50px 20px; margin:0; }
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-= Action Button =-=-=-=-=-=-=-=-=-= */
+
+.action-btn {
+    text-align: center;
+}
+
+.action-btn > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    color: dodgerblue;
+    border: 1px solid lightblue;
+    height: 50px;
+    min-width: 220px;
+    line-height: 47px;
+    text-align: center;
+    border-radius: 24px 24px 24px 0px;
+}
+
+.action-btn > a:hover {
+    background: orange;
+    color: #fff;
+    border-color: transparent;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+
+
+

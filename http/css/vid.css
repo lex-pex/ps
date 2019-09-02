@@ -1,0 +1,65 @@
+#ps-video-jumbo img {
+    width: 100%;
+    position:absolute;
+    left:0;
+    top:47px;
+    margin:0;
+}
+
+#ps-video-jumbo {
+    /*background: gray;*/
+    background:url('/img/jumbo/vid/fix_video.jpg') no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+    padding:0 !important;
+    margin:0 !important;
+    /* max-height: 550px; - Takes under video */
+    /* z-index: -10; - Futile  */
+}
+
+#video_bg {
+    /*z-index: -1000 !important;*/
+    width:100%;
+    height:auto;
+    padding:0;
+    margin:0;
+}
+
+.ps-vid-txt {
+    z-index: 15 !important; /* has to be under menu z-index: 20 */
+    position:absolute !important;
+    top:47px;
+    padding-top:7%;
+    /*margin-right: 25px;*/
+    text-align:right;
+    line-height:0.5em;
+    color:white;
+    /*font-family: 'PSCode', sans-serif;*/
+    /*font-family: 'Verdana', sans-serif;*/
+    font-family: 'Arial', sans-serif;
+    font-size:17px;
+    letter-spacing:0.07em;
+    text-transform: uppercase;
+    background-position: center 21%;
+}
+
+.jumbo-shade {
+    position:absolute;
+    width:100%;
+    /*height: 30%;*/
+    padding-top:52%;
+
+    left:0;
+    top:0;
+    margin:0;
+
+    /*z-index: 0;*/
+
+    /*background:rgba(74, 0, 152, 0.5);*/
+    background-image:linear-gradient(to bottom right, rgba(0, 65, 141, 0.5), rgba(74, 0, 152, 0.7));
+    /*background:rgba(85, 73, 157, 0.6);*/
+    /*background:rgba(112, 78, 157, 0.8);*/
+    /*top:0;*/
+}

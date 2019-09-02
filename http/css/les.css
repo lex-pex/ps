@@ -1,0 +1,81 @@
+
+.path-route{ color:#669999; font-weight: bold }
+
+.red { color: tomato; }
+
+.comment { color:#009900; }
+
+.string { color:#CC6600; }
+
+.str { color:#CC6600; }
+
+.accent-strong {
+    color: firebrick;
+    font-size: 1.05em;
+    font-weight: bold;
+}
+.accent {
+    color: #444;
+    font-size: 1.05em;
+    font-weight: bold;
+}
+
+.code-txt {
+    word-spacing:5px;
+    letter-spacing:2px;
+    padding:4px;
+    color: dodgerblue;
+    font-weight: bold;
+}
+.code-plain {
+    color: #555;
+    font-weight: bold;
+}
+
+.code-block {
+    padding:0;
+    margin:0 0 15px 0;
+    width:100%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: #f8f8f8;
+    overflow: auto !important;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.code {
+    white-space:pre !important;
+    margin:0 15px 15px 15px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width:250px;
+    font-size:1.1em;
+    color: #0d53c4 !important;
+}
+
+.scroll-table {
+    text-indent:10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width:250px;
+    white-space:pre !important;
+    font-size:1.1em !important;
+    color: gray !important;
+}
+
+.scroll-table table tr td  {
+    padding: 15px 5px 15px 25px;
+    font-weight: bold;
+}
+
+dl {
+    line-height:2em;
+}
+
+dt {
+    font-weight: bold; color:#0073c0;
+}
+
+dd {
+    padding-left: 15px;
+}
+
